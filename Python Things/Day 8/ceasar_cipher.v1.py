@@ -68,5 +68,4 @@ if next_action in ["yes", "no"]:
 else:
     print("INVALID INPUT.\n ========================")
 
-
-    
+# I hate coding
