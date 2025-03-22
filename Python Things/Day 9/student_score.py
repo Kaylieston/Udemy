@@ -22,15 +22,40 @@ print(student_grades)
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-capitals = {
-    "France": "Paris",
-    "Germany": "Berlin"
+# capitals = {
+#     "France": "Paris",
+#     "Germany": "Berlin"
+# }
+
+# # Nested List in Dictionary 
+# travel_log = {
+#     "France": ["Paris", "Lille", "Dijon"],
+#     "Germany": ["Berlin", "Hamburg", "Stuttgart"]
+# }
+
+# # Print Lille
+# print(travel_log["France"][1])
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+# List in a List 
+nested_list = ["A","B", ["C", "D"]]
+
+# Print D 
+print(nested_list[2][1])
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+# Dictionary in a Dictionary
+
+travel_log ={
+    "France": {
+        "cities_visited": ["Paris", "Lille", "Dijon"],
+        "total_visits": 12
+    }, 
+    "Germany": {
+        "cities_visited": ["Berlin", "Hamburg", "Stuttgart"],
+        "total_visits": 5
+    }
 }
 
-# Nested List in Dictionary 
-travel_log = {
-    "France": ["Paris", "Lille", "Dijon"],
-    "Germany": ["Berlin", "Hamburg", "Stuttgart"]
-}
-
-print(travel_log["France",])
+# Print Stuttgart
+print(travel_log["Germany"]["cities_visited"][2])
