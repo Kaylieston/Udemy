@@ -59,5 +59,5 @@ def calculate_love_Score(name1, name2):
     love_score = str(match_true) + str(match_love)
     print(f"==> THE FINAL LOVE SCORE IS: {love_score}")
  
-calculate_love_Score("HikariMoon", "Nukuruma Natsuki") 
+calculate_love_Score("Huynh Quoc Hoang Vuong", "Truong Minh Nguyet") 
        
